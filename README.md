@@ -1,61 +1,46 @@
 # DBC Converter
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
-![GitHub repo size](https://img.shields.io/github/repo-size/LeonardoZappiRamos/converter)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/LeonardoZappiRamos/converter?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/LeonardoZappiRamos/converter?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/LeonardoZappiRamos/converter?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/LeonardoZappiRamos/converter?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/LeonardoZappiRamos/converter?style=for-the-badge)
 
-<img src="exemplo-image.png" alt="exemplo imagem">
+<img src="img/example-img.png" alt="exemplo imagem">
 
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+> Programa de converção de arquivos .DBC, Arquivos DBC (DataBase Container) e um arquivo proprietario do DataSUS.
 
 ### Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [x] Tarefa 1
-- [x] Tarefa 2
-- [x] Tarefa 3
-- [ ] Tarefa 4
-- [ ] Tarefa 5
+- [x] Interface Grafica
+- [x] Converção do Arquivo
+- [ ] Implementar Notificações
+- [ ] Finalizar a inteface
+- [ ] Estilezar a Interface
 
-## 💻 Pré-requisitos
+## 🚀 Instalando DBC Converter
 
-Antes de começar, verifique se você atendeu aos seguintes requisitos:
-<!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
-* Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
-* Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
-* Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
-
-## 🚀 Instalando <nome_do_projeto>
-
-Para instalar o <nome_do_projeto>, siga estas etapas:
-
-Linux e macOS:
-```
-<comando_de_instalação>
-```
+Para instalar o DBC Converter, siga estas etapas:
 
 Windows:
-```
-<comando_de_instalação>
-```
 
-## ☕ Usando <nome_do_projeto>
-
-Para usar <nome_do_projeto>, siga estas etapas:
+- Clone o Repositorio
+```
+git clone https://github.com/LeonardoZappiRamos/converter.git
 
 ```
-<exemplo_de_uso>
-```
 
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
+- Intale as dependencias 
+ - TKinter
+ - Pandas
+ - PySUS
 
-## 📫 Contribuindo para <nome_do_projeto>
+## 📫 Contribuindo para DBC Converter
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
-Para contribuir com <nome_do_projeto>, siga estas etapas:
+Para contribuir com DBC Converter, siga estas etapas:
 
 1. Bifurque este repositório.
 2. Crie um branch: `git checkout -b <nome_branch>`.
@@ -73,29 +58,12 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/50831699?s=96&v=4" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
         <sub>
           <b>Iuri Silva</b>
         </sub>
       </a>
     </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://s2.glbimg.com/FUcw2usZfSTL6yCCGj3L3v3SpJ8=/smart/e.glbimg.com/og/ed/f/original/2019/04/25/zuckerberg_podcast.jpg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
-        <sub>
-          <b>Mark Zuckerberg</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
-        <sub>
-          <b>Steve Jobs</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
 </table>
 
 
